@@ -1,0 +1,115 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Open sans, Helvetica, sans-serif;
+  background: #111;
+  padding: clamp(20px, 5vw, 50px) 10px 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: #111;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+label {
+  margin-right: 10px;
+  color: white;
+}
+
+
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.generate-btn {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 400px;
+}
+
+.generate-btn:hover {
+  background-color: #0056b3;
+}
+
+.password-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  <
+}
+
+.password {
+  margin-right: 10px;
+  word-wrap: break-word;
+}
+
+.copy-btn {
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  margin-left: 600px;
+
+
+
+}
+
+.copy-icon {
+  width: 24px;
+  height: 24px;
+  margin-left:300px;
+  fill: white;
+  color: white;
+
+}
+
+.copy-icon:hover {
+  fill: #444; / Change this to your desired hover color
+
+
+}
+#text
+{
+  color: white;
+}
+#passwordInput
+{
+  background-color: #111111;
+}
+input[type="text"]{
+  border-color: transparent;
+  background-color:black;
+}
